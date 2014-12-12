@@ -1,0 +1,6 @@
+[submodule "src/apps/backbone-localizable-texts"]
+	path = src/apps/backbone-localizable-texts
+	url = https://github.com/edulan/backbone-localizable-texts
+[submodule "src/apps/klondike"]
+	path = src/apps/klondike
+	url = https://github.com/edulan/klondike

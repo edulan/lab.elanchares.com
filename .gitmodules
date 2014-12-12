@@ -4,3 +4,6 @@
 [submodule "src/apps/klondike"]
 	path = src/apps/klondike
 	url = https://github.com/edulan/klondike
+[submodule "src/apps/genetic-colors"]
+	path = src/apps/genetic-colors
+	url = https://github.com/edulan/genetic-colors

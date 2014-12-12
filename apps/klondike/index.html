@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Visualizing algorithms - Back from the Klondike</title>
+	<style type="text/css">
+		body {
+			background-color: #3d3d3d;
+		}
+
+		* {
+			margin-left: auto;
+			margin-right: auto;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			cursor: default;
+		}
+
+		td.cell {
+			width: 28px;
+			height: 28px;
+			margin: 10px;
+			text-align: center;
+			color: #e9eaee;
+			font-size: 14px;
+			font-weight: bold;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		td.selected {
+			/*background-color: #4d90fe;*/
+			background-color: rgba(77, 144, 254, 0.2);
+		}
+
+		td.exit {
+			/*background-color: #093;*/
+			background-color: rgba(0, 153, 51, 1);
+		}
+	</style>
+</head>
+<body>
+ 	<script src="lib/d3.v3.min.js"></script>
+	<script src="src/klondike.js"></script>
+</body>
+</html>
